@@ -24,7 +24,7 @@
 #import "AFOAuthCredential.h"
 #import "AFHTTPRequestSerializer+OAuth2.h"
 
-@import AFNetworking;
+#import "AFHTTPSessionManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
