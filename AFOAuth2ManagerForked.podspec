@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
   s.name     = 'AFOAuth2ManagerForked'
   s.version  = '3.0.0'
   s.license  = 'MIT'
-  s.summary  = 'AFNetworking Extension for OAuth 2 Authentication.'
+  s.summary  = 'AFNetworking Extension for OAuth 2 Authentication. Forked, because we need version 3.0 published as pods.'
   s.homepage = 'https://github.com/AFNetworking/AFOAuth2Manager'
   s.social_media_url = "https://twitter.com/AFNetworking"
   s.author   = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFOAuth2Manager.git',
+  s.source   = { :git => 'https://github.com/dstranz/AFOAuth2Manager.git',
                  :tag => s.version }
   s.source_files = 'AFOAuth2Manager'
   s.requires_arc = true
